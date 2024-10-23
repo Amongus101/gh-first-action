@@ -7,6 +7,6 @@ jobs:
       - name: Welcome User
         run: echo "Welcome Kishore"
       - name: Bye User
-        run: eco "Bye Kishore"
+        run: echo "Bye Kishore"
       
   
