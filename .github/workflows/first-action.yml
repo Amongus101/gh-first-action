@@ -1,0 +1,12 @@
+name: First workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Welcome User
+        run: echo "Welcome Kishore"
+      - name: Bye User
+        run: eco "Bye Kishore"
+      
+  
