@@ -4,9 +4,9 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Welcome User
-        run: echo "Welcome Kishore"
-      - name: Bye User
-        run: echo "Bye Kishore"
+      - name: Greet & Bye user
+        run: |
+          echo "Welcome Kishore"
+          echo "Bye Kishore"
       
   
